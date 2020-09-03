@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>InvoiceManager.Models</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\InvoiceManager.Constants\InvoiceManager.Constants.csproj" />
+      <ProjectReference Include="..\InvoiceManager.Contracts\InvoiceManager.Contracts.csproj" />
+      <ProjectReference Include="..\InvoiceManager.Dtos\InvoiceManager.Dtos.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    </ItemGroup>
+
+</Project>
